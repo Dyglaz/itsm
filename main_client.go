@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	db, err := sql.Open("mysql", "username:password@tcp(localhost:3306)/dbname")
+	db, err := sql.Open("mysql", "root:admin@tcp(localhost:3306)/itsm")
 	if err != nil {
 		log.Fatal(err)
 	}
